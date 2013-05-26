@@ -1,7 +1,7 @@
 {
   "name": "time-series",
   "version" : "0.0.1",
-  "description": "A simple library for extacting stock data from Google Finance.",
+  "description": "A simple library for doing time-series analysis in Node.js.",
   "author": "Rob Britton <rob@robbritton.com>",
   "dependencies" : {
     "coffee-script": "1.4.0",
