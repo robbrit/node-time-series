@@ -2,7 +2,7 @@ Wat
 ===
 
 Simple library for doing time series analysis in Node.js. Much of the
-functionality has been closed from the time series module in Ruby's
+functionality has been cloned from the time series module in Ruby's
 statsample library: https://github.com/clbustos/statsample
 
 Install
