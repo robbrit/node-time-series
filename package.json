@@ -1,0 +1,28 @@
+{
+  "name": "time-series",
+  "version" : "0.0.1",
+  "description": "A simple library for extacting stock data from Google Finance.",
+  "author": "Rob Britton <rob@robbritton.com>",
+  "dependencies" : {
+    "coffee-script": "1.4.0",
+    "simple-statistics": "0.3.0",
+    "underscore": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*"
+  },
+  "scripts": {
+    "test": "SWIQ_ENV=test mocha --reporter nyan -t 5000 --bail --compilers coffee:coffee-script --require coffee-script --require mocha --colors --recursive test"
+  },
+  "keywords": [
+    "statistics", "time series"
+  ],
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Rob Britton",
+      "email": "rob@robbritton.com"
+    }
+  ]
+}
