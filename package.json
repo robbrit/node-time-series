@@ -15,6 +15,10 @@
   "scripts": {
     "test": "SWIQ_ENV=test mocha --reporter nyan -t 5000 --bail --compilers coffee:coffee-script --require coffee-script --require mocha --colors --recursive test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robbrit/node-time-series"
+  },
   "keywords": [
     "statistics", "time series"
   ],
